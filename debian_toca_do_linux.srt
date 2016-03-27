@@ -1,0 +1,716 @@
+﻿1
+00:00:04,074 --> 00:00:10,000
+Debian é uma distribuição que foi iniciada 
+em 1993 pelo alemão Ian Murdock
+
+2
+00:00:10,000 --> 00:00:13,085
+depois das frustrantes experiências que 
+teve com algumas distribuições comerciais
+
+3
+00:00:13,085 --> 00:00:17,017
+que mais estavam focadas em faturar 
+do que oferecer um bom produto
+
+4
+00:00:18,002 --> 00:00:21,097
+Uma delas é a SLS que mencionei no 
+vídeo do Slackware
+
+5
+00:00:22,077 --> 00:00:27,002
+Foi aí que ele começou a trabalhar no 
+desenvolvimento de uma distribuição
+
+6
+00:00:27,002 --> 00:00:30,020
+que seria livre seguindo o espírito 
+do GNU e do Linux
+
+7
+00:00:30,020 --> 00:00:36,060
+que seria tanto boa para o usuário de desktop 
+quanto para profissionais em ambientes comerciais
+
+8
+00:00:37,062 --> 00:00:42,022
+A ideia era desenvolver uma distribuição
+que acessasse um repositório on-line
+
+9
+00:00:42,022 --> 00:00:44,060
+para instalar os programas pré-compilados
+
+10
+00:00:44,060 --> 00:00:50,020
+Os programas contidos nesse repositório ftp
+passam por intensas e exaustivas verificações
+
+11
+00:00:50,020 --> 00:00:52,068
+na busca de bugs para que sejam eliminados
+
+12
+00:00:52,068 --> 00:00:57,094
+depois são revisados e após passar por crivo 
+dos administradores é que são empacotados
+
+13
+00:00:57,094 --> 00:00:59,094
+e liberados para pós instalação
+
+14
+00:01:00,020 --> 00:01:05,031
+e assim o siclo se repete constantemente até 
+encontrarem o próximo bug e liberarem a
+
+15
+00:01:05,031 --> 00:01:08,045
+próxima atualização daquele
+ pacote e assim segue
+
+16
+00:01:08,068 --> 00:01:09,042
+pois é
+
+17
+00:01:09,042 --> 00:01:12,097
+trabalho exaustivo para a comunidade 
+garantir pacotes estaveis
+
+18
+00:01:13,025 --> 00:01:15,034
+tem até um robo fazendo essa varredura
+
+19
+00:01:15,091 --> 00:01:20,045
+Bom, mas desta forma eles garantem uma 
+ótima solução atendendo a todos os ambientes
+
+20
+00:01:21,051 --> 00:01:26,034
+Essa visão chamou atenção da Fundação 
+do Software Livre que passou a patrociná-lo
+
+21
+00:01:26,074 --> 00:01:30,080
+O nome da distribuição foi uma mistura
+das três primeiras letras no nome da sua
+
+22
+00:01:30,080 --> 00:01:36,011
+“então namorada” Debra Lynn 
+que alias foi sua esposa té 2007
+
+23
+00:01:36,054 --> 00:01:41,022
+e as três letras do seu próprio 
+nome “Ian”, aí surgiu “Debian”
+
+24
+00:01:41,022 --> 00:01:47,074
+A sua primeira versão, a 0.01,
+foi lançada em setembro de 1993
+
+25
+00:01:48,014 --> 00:01:50,088
+mas só internamente para a equipe
+de desenvolvimento
+
+26
+00:01:51,028 --> 00:01:59,005
+Já a sua primeira versão estável e pública
+foi a versão 1.1, que foi lançada em 1996
+
+27
+00:01:59,077 --> 00:02:03,074
+A demora do lançamento se deu 
+devido a filosofia da distribuição
+
+28
+00:02:03,074 --> 00:02:06,042
+em que Debian só fica pronto 
+quando estiver pronto
+
+29
+00:02:06,097 --> 00:02:10,065
+Ian delegou o projeto a Bruce Perens em 1995
+
+30
+00:02:11,054 --> 00:02:17,011
+Em 1996, saiu para terminar seu bacharelado na
+universidade de Purbue em Indiana
+
+31
+00:02:17,077 --> 00:02:23,031
+Um dos empregos que Ian teve, foi ser o chefe
+responsável pelo desenvolvimento do Opensolaris
+
+32
+00:02:23,031 --> 00:02:26,054
+na Sun Microsystems, empresa 
+a qual ainda trabalha até hoje
+
+33
+00:02:27,002 --> 00:02:29,068
+Foi na primeira estável que Bruce cuidou
+
+34
+00:02:29,068 --> 00:02:32,071
+para que a distribuição recebesse 
+um codinome a cada lançamento
+
+35
+00:02:33,011 --> 00:02:36,088
+Assim ele utilizou os nome dos 
+bonecos do desenho toy story
+
+36
+00:02:37,048 --> 00:02:42,008
+A primeira versão, a versão 1.1 
+recebeu o nome de “Buzz”
+
+37
+00:02:42,008 --> 00:02:47,071
+Alias, se reparar, foi daí que retiraram o 
+símbolo da distribuição, o chamado “Swirl”
+
+38
+00:02:49,000 --> 00:02:51,060
+A 1.2 recebeu o nome de “Rex”
+
+39
+00:02:52,002 --> 00:02:54,000
+1.3 “Bo”
+
+40
+00:02:54,054 --> 00:02:56,048
+2.0 “Hamm”
+
+41
+00:02:57,020 --> 00:02:59,008
+2.1 “Slink”
+
+42
+00:02:59,068 --> 00:03:01,054
+2.2 “Potato”
+
+43
+00:03:02,000 --> 00:03:04,011
+3.0 “Woody”
+
+44
+00:03:04,057 --> 00:03:06,042
+3.1 “Sarge”
+
+45
+00:03:07,031 --> 00:03:09,037
+4.0 “Etch”
+
+46
+00:03:10,022 --> 00:03:14,000
+5.0 “Lenny”
+que após o lançamento dessa versão
+
+47
+00:03:14,000 --> 00:03:18,034
+a equipe Debian anunciou que iria reduzir
+o tempo de congelamento da próxima versão,
+
+48
+00:03:19,051 --> 00:03:25,060
+a 6.0 “Squeeze”, que foi a primeira a ser lançado 
+com o tempo de congelamento reduzindo
+
+49
+00:03:25,060 --> 00:03:27,028
+com apoio da equipe da Canonical
+
+50
+00:03:28,025 --> 00:03:31,040
+E a 7.0 “Wheezy”, que é a atual
+
+51
+00:03:32,028 --> 00:03:36,008
+A próxima versão já está prevista para se
+chamar “Jessie”
+
+52
+00:03:37,057 --> 00:03:43,000
+Esses são os nomes das versões estáveis, porque 
+o Debian trabalha com ciclos de desenvolvimento 
+
+
+53
+00:03:43,048 --> 00:03:49,025
+A primeira é a versão “unstable” que digamos 
+que é uma versão alfa para a próxima versão estável
+
+54
+00:03:49,074 --> 00:03:53,022
+Nesse ciclo todas as ultimas versões 
+de programas estão presentes nela
+
+55
+00:03:53,022 --> 00:03:56,022
+assim como no Fedora e no Linux From Scratch
+
+56
+00:03:56,051 --> 00:04:02,034
+por exemplo: a ultima versão do kernel 
+que é a 3.17 ou 3.17.3, vai estar lá
+
+57
+00:04:02,074 --> 00:04:07,034
+Esse ciclo é representado pelo Sid,
+um moleque aloprado que explode tudo
+
+58
+00:04:07,097 --> 00:04:13,060
+Eles escolheram o garoto também pelo seu 
+nome que significa “Still In Development”
+
+59
+00:04:13,060 --> 00:04:18,017
+ou melhor “Ainda em desenvolvimento”
+melhor nome não tinha né?
+
+60
+00:04:18,017 --> 00:04:20,017
+O segundo ciclo é o Testing
+
+61
+00:04:20,085 --> 00:04:23,060
+digamos que é um estágio beta da distribuição
+
+62
+00:04:24,022 --> 00:04:26,062
+É nesse processo que a 
+versão recebe o seu codinome
+
+63
+00:04:27,008 --> 00:04:30,068
+Após isso, quando a versão testing
+já está em um ponto bem estável
+
+64
+00:04:30,068 --> 00:04:33,002
+ela entra em um estágio 
+chamado de congelamento
+
+65
+00:04:33,045 --> 00:04:38,054
+Nesse ponto ela já entra em um 
+ciclo propriamente de “Stable”
+
+66
+00:04:38,054 --> 00:04:43,054
+onde tudo foi bem testado, somente 
+passando por correções finais de bugs
+
+67
+00:04:43,057 --> 00:04:45,042
+e disponibilizado para download
+
+68
+00:04:46,045 --> 00:04:53,060
+Então basicamente existem quatro Debians 
+Experimental, Unstable, Testing, Stable
+
+69
+00:04:54,002 --> 00:04:59,005
+Diferente do Slackware, onde o líder 
+responsável é o Patrick Volkerding
+
+70
+00:04:59,060 --> 00:05:03,077
+o projeto Debian recebe um líder que
+é eleito pelos próprios desenvolvedores
+
+71
+00:05:03,077 --> 00:05:10,034
+no total já teve 13 presidentes, contando 
+com o Ian, mesmo que ele não foi eleito,
+
+72
+00:05:10,034 --> 00:05:12,014
+ele foi o fundador do projeto
+
+73
+00:05:12,068 --> 00:05:15,080
+Debian é um distribuição multi-kernel, 
+ou seja
+
+74
+00:05:15,080 --> 00:05:20,068
+além da distribuição Linux existe também 
+a versão Hurd, exato, uma versão Debian com
+
+75
+00:05:20,068 --> 00:05:25,091
+o micro kernel do projeto GNU
+e a versão Debian GNU KfreeBSD
+
+76
+00:05:26,017 --> 00:05:32,002
+Quando eu conheci o Debian já era multi-kernel
+só que ao invés de FreeBSD era NetBSD
+
+77
+00:05:32,031 --> 00:05:37,071
+depois eles descontinuaram o 
+kernel NetBSD e adotaram o FreeBSD
+
+78
+00:05:38,022 --> 00:05:42,085
+Enfim, esses logo são outros 
+Debian “não Linux”, belê?
+
+79
+00:05:43,020 --> 00:05:47,097
+isso se dá porque o Debian é um modelo 
+de projeto tão interessante e tão bem sucedido
+
+80
+00:05:47,097 --> 00:05:51,080
+que outros sistemas acabam incorporando 
+ou adotando características suas
+
+81
+00:05:52,017 --> 00:05:58,017
+Além dos já citados Hurd, KfreeBSD 
+e o já descontinuados NetBSD
+
+82
+00:05:58,017 --> 00:06:02,065
+Há também o Dyson, por exemplo, 
+que é uma versão de Debian SunOS
+
+83
+00:06:02,065 --> 00:06:05,057
+ou Debian GNU KOpenSolaris
+
+84
+00:06:06,080 --> 00:06:11,094
+Dá para ver nessa imagem que no final
+ela é dado o comando “uname -a”
+
+85
+00:06:11,094 --> 00:06:16,022
+seguido do comando “date”, aparece 
+o nome do sistema SunOs
+
+86
+00:06:16,022 --> 00:06:20,028
+e no início da imagem é dado o 
+comando “dpkg -s” para instalar o “mono”
+
+87
+00:06:21,028 --> 00:06:27,020
+Dilos, também que é um versão de SunOS mas
+que utiliza o gerenciador de pacotes do Debian
+
+88
+00:06:27,020 --> 00:06:32,094
+o “dpkg” mais o “apt”, da mesma forma que 
+o Conectiva fazia e o PCLinuxOS faz hoje,
+
+89
+00:06:32,094 --> 00:06:34,094
+o que é adotar o “apt”
+
+90
+00:06:34,094 --> 00:06:41,020
+alias, existe até mesmo o “apt rpm” para 
+utilizar o “apt” em distros baseados em Red Hat
+
+91
+00:06:41,068 --> 00:06:48,002
+ou seja, utiliza-se o “apt-get” para instalar 
+ou atualizar os pacotes “.rpm”
+
+92
+00:06:48,094 --> 00:06:53,048
+Então de cara não podemos afirmar que o 
+Debian que alguém está utilizando é Linux
+
+93
+00:06:53,048 --> 00:06:56,085
+ou que alguém está utilizando Debian
+simplesmente por estar dando um
+
+94
+00:06:56,085 --> 00:06:58,085
+“apt-get install” no terminal
+
+95
+00:07:04,040 --> 00:07:09,045
+Além destas, o Gentoo adotou parte do contrato 
+social do Debian para que fosse feito o seu
+
+96
+00:07:11,042 --> 00:07:15,051
+Não é atoa que o Debian é chamado de 
+sistema operacional universal
+
+97
+00:07:17,000 --> 00:07:20,042
+Além de multi-kernel, Debian 
+é uma distribuição multi-arquitetura
+
+98
+00:07:20,042 --> 00:07:30,091
+está disponível para x86 de 32 e 64 bits
+armel, armhf, ia64, mips, mipsel, powerpc,
+
+99
+00:07:30,094 --> 00:07:34,077
+sparc, s390 e s390x
+
+100
+00:07:34,077 --> 00:07:39,040
+Vale lembra que somente para Linux 
+as versões freeBSD e Hurd estão disponíveis
+
+101
+00:07:39,040 --> 00:07:41,014
+somente para x86
+
+102
+00:07:42,000 --> 00:07:47,005
+Para baixar o Debian, existem as opções 
+CD/DVD de instalação, imagem mínima
+
+103
+00:07:47,005 --> 00:07:52,031
+chamada de Net Install, que no máximo 
+é de 130 Mega e o resto ela pucha da
+
+104
+00:07:52,031 --> 00:07:57,011
+interna para instalar na sua própria máquina
+fica personalizado e tudo rodando direitinho
+
+105
+00:07:57,011 --> 00:08:01,065
+Bom, funciona da mesma forma que o Gentoo
+e o Arch só que com interface gráfica
+
+106
+00:08:02,000 --> 00:08:08,077
+E tem também as opções bit torrent e a jigdo,
+seria a sigla de Jigsaw Download
+
+107
+00:08:08,077 --> 00:08:11,094
+que pretende ser um 
+download padrão da distribuição
+
+108
+00:08:13,008 --> 00:08:16,097
+No momento da instalação tem essas 
+opções de modo texto e modo gráfico
+
+109
+00:08:17,057 --> 00:08:22,017
+É durante a instalação que você escolha para
+qual fim o sistema será utilizado, seja um PC,
+
+110
+00:08:22,017 --> 00:08:27,034
+um Notebook, um servidor de impressão, de Web, 
+de banco de dados SQL e a lista é grande
+
+111
+00:08:28,034 --> 00:08:33,025
+O Debian é um distribuição voltada a estabilidade 
+e segurança baseada no layout System V
+
+112
+00:08:33,025 --> 00:08:38,042
+Pode-se por exemplo parar os 
+processos de DNS dentro de etc/init.d
+
+113
+00:08:38,042 --> 00:08:42,042
+ou pode-se utilizar o “invoke-rc.d” 
+para fazer o mesmo serviço
+
+114
+00:08:42,077 --> 00:08:48,002
+Na opção desktop, a inteface padrão 
+é o Gnome apesar de poder instalar outras, né
+
+115
+00:08:48,002 --> 00:08:50,002
+isso aí não é nenhum problema
+
+116
+00:08:51,080 --> 00:08:56,008
+Como mencionado sobre o “dpkg”, 
+sigla de “Debian pakage” 
+
+
+117
+00:08:56,068 --> 00:08:59,054
+É o programa de instalação dos pacotes “.deb”
+
+118
+00:09:00,034 --> 00:09:06,062
+Seu gerenciador de pacotes é o “apt”, 
+onde se tem o “apt-get, apt-cache” e um monte
+
+119
+00:09:07,077 --> 00:09:13,065
+O “apt” recebeu uma versão avançada chamada
+“aptitude” onde podemos fazer as mesmas coisas
+
+120
+00:09:13,065 --> 00:09:15,065
+porem bem mais detalhadas
+
+121
+00:09:17,062 --> 00:09:23,037
+Utilizando o comando aptitude, sem opções.
+Ele lhe oferece a inteface de texto
+
+122
+00:09:23,091 --> 00:09:26,028
+Esse é o máximo de amigável que consigo usar
+
+123
+00:09:26,071 --> 00:09:31,011
+É uma inteface texto, mas porem com 
+mais coisas né, bem mais detalhada
+
+124
+00:09:31,057 --> 00:09:35,082
+Mas para quem gosta de interface gráfica, 
+tem esse também, o synaptic, que o Debian
+
+125
+00:09:35,082 --> 00:09:42,045
+adotou do Conectiva e o Gdeb que é uma 
+interface gráfica para uso dpkg feito em GTK
+
+126
+00:09:45,082 --> 00:09:52,074
+As distribuições mais famosas baseadas no Debian
+são o Ubuntu, que teria derivado o Linux Mint
+
+127
+00:09:52,074 --> 00:09:56,002
+Apesar de ter uma versão Debian do Linux Mint
+
+128
+00:09:56,025 --> 00:10:00,042
+O Knoppix, dele fazia-se o Kurumin
+Saudades do Kurumin
+
+129
+00:10:01,002 --> 00:10:03,040
+Raspbian que é uma versão para Raspberrypi
+
+130
+00:10:03,080 --> 00:10:08,045
+O Kali Linux que é uma distribuição de renome
+no mundo de Pen Test. Iniciou-se no Slackware
+
+131
+00:10:08,045 --> 00:10:11,082
+com o nome de BackTrack, depois passou 
+seu desenvolvimento para Ubuntu
+
+132
+00:10:12,020 --> 00:10:16,028
+O Damn Small Linux que é uma 
+distribuição pequena mas que usa rpm
+
+133
+00:10:16,028 --> 00:10:17,085
+para instalar pacotes “.deb”
+
+134
+00:10:18,008 --> 00:10:20,068
+e a lista é enorme pela família do Debian
+
+135
+00:10:22,008 --> 00:10:23,054
+E o pau tá quebrando
+
+136
+00:10:23,068 --> 00:10:29,008
+No 21º aniversário da distribuição, 
+já definiram o nome dos próximos lançamentos
+
+137
+00:10:29,008 --> 00:10:31,031
+que no Debian 9 vai ser “Stretch”
+
+138
+00:10:31,054 --> 00:10:32,097
+No Debian 10 “Buster”
+
+139
+00:10:33,022 --> 00:10:37,071
+A distro adotou o SystemD. Esse SystemD 
+está dando o que falar nas comunidades
+
+140
+00:10:37,088 --> 00:10:41,008
+Meio mundo dos caras importantes da 
+distro pularam fora do barco
+
+141
+00:10:41,034 --> 00:10:46,082
+A equipe decidiu abandonar ou por enquanto
+o desenvolvimento do KfreeBSD
+
+142
+00:10:46,082 --> 00:10:51,045
+E surgiu na Itália um fork do Debian chamado 
+Devuan, para quem gosta do padrão System V
+
+143
+00:10:51,045 --> 00:10:55,045
+E envia uma mensagem aos puristas,
+defensores do System V
+
+144
+00:10:55,045 --> 00:10:57,045
+ou que pelo menos não gostam desse System D
+
+145
+00:10:57,045 --> 00:11:00,040
+Para não entrarem em panico e 
+continuarem fazendo fork do Debian
+
+146
+00:11:00,040 --> 00:11:04,025
+Na minha opinião, acho desnecessário 
+a existência de um fork só por causa disso
+
+147
+00:11:04,025 --> 00:11:05,060
+mas tá bom
+
+148
+00:11:05,080 --> 00:11:09,028
+E é isso aí galera. Espero que tenham gostado 
+e tenha difundido mais conhecimento
+
+149
+00:11:09,054 --> 00:11:13,008
+Se gostaram? larga um joinha para poder
+dar um incentivo para o canal aí,
+
+150
+00:11:13,008 --> 00:11:17,005
+compartilhar com os amigos e não 
+esqueça de escrever caso não ser, beleza?
+
+151
+00:11:17,005 --> 00:11:18,017
+Faaaalou
+
